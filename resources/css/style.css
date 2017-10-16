@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+	font-family: lato;
+	font-size: 16px;
+	margin: unset;
+}
+
+header {
+	width: 100%;
+	height: 4rem;
+	background-color: white;
+	align-items: center;
+	display: flex;
+}
+
+header img {
+	width: 3rem;
+	padding-left: 1.5rem;
+}
+
+div.logo {
+	height: 2rem;
+}
+
+span.gray {
+	font-weight: bold;
+    font-size: 1.5rem;
+    color: #353540;
+}
+
+span {
+	color: #7F7575;
+	font-size: 1.5rem;
+}
+
+nav {
+    flex-grow: 1;
+    padding-right: 1.5rem;
+}
+
+ul {
+    display: flex;
+}
+
+ul a {
+	padding-left: 1rem;
+	text-decoration: none;
+    list-style-type: none;
+}
+
+ul li {
+	font-size: 1.2rem;
+	color: #7F7575;
+}
+
+ul.mobile-menu {
+	display: none;
+}
+
+div.container {
+	background-color: darkgray;
+	display: flex;
+}
+
+div.container img {
+	padding: 2rem 0.75rem 2rem 1.5rem;
+	height: 40rem
+}
+
+div.main-banner {
+	padding: 10rem 7rem 10rem 0.75rem;
+}
+
+h1 {
+	font-size: 4rem;
+	font-weight: bold;
+	color: #453e3e;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #453e3e;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+span.button {
+	background-color: #453E3E;
+	border: none;
+	color: white;
+	padding: 0.5rem 5rem;
+}
+
+.information {
+	display: flex;
+}
+
+div.info-block1 {
+	width: 60%;
+}
+
+div.info-block1 img {
+	padding: 2rem 0.75rem 2rem 1.5rem;
+	width: 91%;
+}
+
+div.info-block1 h1 {
+	padding-left: 1.5rem;
+	font-size: 3rem;
+}
+
+div.info-block1 p {
+	padding: 1.5rem;
+	font-size: 20px;
+}
+
+div.info-block2 {
+	width: 40%;
+	padding-top: 2rem;
+}
+
+.infoblock {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+#guest {
+	background-color: #A9A9A9;
+}
+
+/*
+.container {
+	display: flex;
+}
+
+nav div {
+	display: flex;
+	align-items: center;
+}
+
+nav img {
+	width: 3rem;
+    margin-left: 1.5rem;
+}
+
+span.gray {
+	font-weight: bold;
+    font-size: 1.5rem;
+    color: #353540;
+}
+
+span {
+	color: #7F7575;
+	font-size: 1.5rem;
+}
+
+nav ul {
+	list-style-type: none;
+	display: flex;
+}
+
+a {
+	text-decoration: none;
+	padding-left: 1rem;
+	font-size: 2rem;
+}
+
+.last {
+	padding-right: 1.5rem;
+}
+
+ul.mobile-menu {
+	display: none;
+}

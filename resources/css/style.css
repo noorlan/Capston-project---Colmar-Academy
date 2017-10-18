@@ -122,7 +122,7 @@ div.info-block2 {
 }
 
 .infoblock {
-   	width: 423px;
+   	width: 26rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -173,7 +173,36 @@ div.image img {
 	background-color: #A9A9A9;
 }
 
+.learnin {
+	background-color: #EAEBEC;
+}
 
+.topic {
+	text-align: center;
+}
+
+.topic h3 {
+	font-size: 5srem;
+	padding: 1.5rem 0;
+}
+
+.flexbox {
+	display: flex;
+    padding: 0 4.5rem;
+    flex-wrap: wrap;
+    align-self: center;
+    width: 58rem;
+    justify-content: space-between;
+}
+
+.box {
+	width: 17.5rem;
+    margin-bottom: 2rem;
+    text-align: left;
+    flex-direction: column;
+    background-color: white;
+    transition: all 100ms cubic-bezier(.65,.27,1,1);
+}
 
 /*
 .container {

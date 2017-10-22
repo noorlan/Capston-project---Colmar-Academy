@@ -181,8 +181,8 @@ div.image img {
 	text-align: center;
 }
 
-.topic h3 {
-	font-size: 5srem;
+.topic span {
+	font-size: 3srem;
 	padding: 1.5rem 0;
 }
 
@@ -201,7 +201,6 @@ div.image img {
     text-align: left;
     flex-direction: column;
     background-color: white;
-    transition: all 100ms cubic-bezier(.65,.27,1,1);
 }
 
 /*
